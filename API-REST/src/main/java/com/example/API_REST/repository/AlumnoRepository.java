@@ -1,0 +1,8 @@
+package com.example.API_REST.repository;
+
+
+import com.example.API_REST.model.Alumno;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AlumnoRepository extends JpaRepository<Alumno, Integer> {
+}
